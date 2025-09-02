@@ -9,7 +9,7 @@ End-to-end Apple sales analysis using SQL and Python – includes database desig
 # 📝 Introduction
 
 ## This project analyzes Apple sales data using SQL and Python.
-## It demonstrates how to:
+It demonstrates how to:
 
 - Create and manage relational databases (PostgreSQL)
 
@@ -22,3 +22,24 @@ End-to-end Apple sales analysis using SQL and Python – includes database desig
 - Visualize results using Matplotlib & Seaborn
 
 This is an end-to-end data analytics project suitable for portfolio building. 🚀
+
+## 📂 Project Structure  
+
+📦 apple-sales-sql-analysis  
+ ┣ 📂 data  
+ ┃ ┣ sales.csv  
+ ┃ ┣ products.csv  
+ ┃ ┣ stores.csv  
+ ┃ ┣ warranty.csv  
+ ┃ ┗ category.csv  
+ ┣ 📂 sql  
+ ┃ ┣ APPLE_SQL.sql           # Database schema + table creation  
+ ┃ ┣ question_of_sql.sql     # All SQL queries  
+ ┣ 📂 notebooks  
+ ┃ ┗ sql_with_python.ipynb   # Jupyter Notebook with analysis  
+ ┣ 📂 reports  
+ ┃ ┗ Apple_Sales_SQL_Project.pdf  # Final project report (PDF)  
+ ┣ 📜 README.md              # Project documentation  
+ ┗ 📜 requirements.txt       # Python libraries needed  
+ 
+# ⚡ Key SQL Queries
