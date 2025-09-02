@@ -43,11 +43,23 @@ This is an end-to-end data analytics project suitable for portfolio building. �
  ┗ 📜 requirements.txt       # Python libraries needed  
  
 ## ⚡ Key SQL Queries
-1️⃣ Monthly Sales Trend
+ ### 1️⃣ Monthly Sales Trend
 ```sql
 SELECT DATE_TRUNC('month', sale_date) AS month, SUM(quantity*price) AS revenue
 FROM sales
 JOIN products ON sales.product_id = products.product_id
 GROUP BY 1
 ORDER BY 1;
+```
+
+### 2️⃣ Top 5 Products by Revenue
+```sql
+SELECT p.product_name, SUM(s.quantity * s.price) AS revenue
+FROM sales s
+JOIN products p ON s.product_id = p.product_id
+GROUP BY p.product_name
+ORDER BY revenue DESC
+LIMIT 5;
+ 
+```
  
