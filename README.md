@@ -125,3 +125,9 @@ cd apple-sales-sql-analysis
 - Average warranty claim time provides product quality insights.
 
 This project proves how SQL and Python can be combined for real-world analytics and business insights.
+
+## 🔗 Connect With Me
+
+- 💼 www.linkedin.com/in/sahilf2003
+
+- 📧 fsahil423@gmail.com
