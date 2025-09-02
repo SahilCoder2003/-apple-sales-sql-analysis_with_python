@@ -112,3 +112,16 @@ JOIN sales s ON s.sale_id = w.sale_id;
 ```bash
 git clone https://github.com/SahilCoder2003/apple-sales-sql-analysis.git
 cd apple-sales-sql-analysis
+```
+
+## ✅ Conclusion
+
+- iPhones and MacBooks are top-selling products.
+
+- Accessories and minor products often have the least sales.
+
+- Some customers churn after their first month of purchase.
+
+- Average warranty claim time provides product quality insights.
+
+This project proves how SQL and Python can be combined for real-world analytics and business insights.
